@@ -1,0 +1,23 @@
+$pixel: em( 1 / 16 );
+$xsmall: ( 360 / 16 * 1em );
+$small: ( 576 / 16 * 1em );
+$medium: ( 768 / 16 * 1em );
+$large: ( 992 / 16 * 1em );
+$xlarge: ( 1100 / 16 * 1em );
+$xxlarge: ( 1200 / 16 * 1em );
+
+$max-root: ($xsmall - $pixel );
+$max-xsmall: ($small - $pixel );
+$max-small: ($medium - $pixel );
+$max-medium: ($large - $pixel );
+$max-large: ( $xlarge - $pixel );
+$max-xlarge: ( $xxlarge - $pixel );
+
+$max-width: rem( 1112 );
+
+// $gutter: rem( 24 );
+
+$easing: cubic-bezier( 0.250, 0.100, 0.250, 1);
+
+$font-list: "Jetbrains Mono", "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+$font-body: Barlow, "Century Gothic", CenturyGothic, AppleGothic, sans-serif
